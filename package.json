@@ -1,0 +1,27 @@
+{
+  "name": "ts_sort",
+  "version": "1.0.0",
+  "description": "simple linked list sorting application in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NHartMusic/ts_sort.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NHartMusic/ts_sort/issues"
+  },
+  "homepage": "https://github.com/NHartMusic/ts_sort#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
